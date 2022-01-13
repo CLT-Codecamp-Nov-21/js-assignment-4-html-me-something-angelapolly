@@ -1,4 +1,104 @@
 /* Write your CSS here! */
-.scrollArea {
-    white-space: nowrap;
+body {
+    background-image: linear-gradient(lightgrey, black);
+    padding: 20px;
+    margin: 8px;
+    display: block;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
+}
+
+p {
+    margin: 25px 50px 75px 100px;
+    font-family: 'Lucida Sans';
+    font-size: 18px;
+  }
+
+img {
+      border: 1px solid black;
+  }
+
+#foot {
+    color:grey;
+}
+
+.singleimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+}
+
+#doubleimg {
+    margin-inline-end: 20px;
+    margin-left: 100px;
+}
+
+#doubleimg2 {
+    margin-left: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+  }
+  
+  li {
+    color: #666;
+    display: inline;
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: darkgray;
+  }
+
+  h1 {
+      text-align: center;
+      font-family:'Lucida Sans';
+      font-size: 40px;
+  }
+
+  h2 {
+    text-align: center;
+    font-family:'Lucida Sans';
+    font-size: 30px;
+  }
+
+  #caption {
+      text-align: center;
+      margin-bottom: 40px;
+  }
+  
+  #dreamcaption {
+      text-align: center;
+      color: gray;
+  }
+
+  #doublecap {
+      margin-left: 90px;
+  }
+  
+  #doublecap2 {
+      margin-left: 200px;
   }
